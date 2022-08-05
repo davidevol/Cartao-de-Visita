@@ -6,11 +6,10 @@ import androidx.lifecycle.ViewModelProvider
 import com.davideploy.cartaovisita.data.BusinessCard
 import com.davideploy.cartaovisita.data.BusinessCardRepository
 
-class MainViewModel(private val businessCardRepository: BusinessCardRepository) : ViewModel(){
+class MainViewModel(private val businessCardRepository: BusinessCardRepository): ViewModel() {
 
     fun insert(businessCard: BusinessCard) {
         businessCardRepository.insert(businessCard)
-
     }
 
     fun getAll() : LiveData<List<BusinessCard>> {
@@ -18,14 +17,12 @@ class MainViewModel(private val businessCardRepository: BusinessCardRepository) 
     }
 }
 
-class MainViewModelFactory(private val repository: BusinessCardRepository) :
-    ViewModelProvider.Factory {
-    override fun <T : ViewModel?> create(modelClass: Class<T>): T {
+class MainViewModelFactory(private val repository: BusinessCardRepository) : ViewModelProvider.Factory {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(MainViewModel::class.java)) {
             @Suppress("UNCHECKED_CAST")
             return MainViewModel(repository) as T
         }
-        throw IllegalAccessException("Unknown ViewModel class")
+        throw IllegalArgumentException("Unknown ViewModel class")
     }
-
 }

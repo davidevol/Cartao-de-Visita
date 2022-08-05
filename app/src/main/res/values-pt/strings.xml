@@ -14,4 +14,6 @@
     <string name="label_confirmar">Confirmar</string>
     <string name="label_show_success">Registro inserido com sucesso.</string>
     <string name="label_share_to">Compartilhar</string>
+    <string name="print_name">CartaoVisita</string>
+    <string name="sucess_image_dialog">Imagem capturada com sucesso!</string>
 </resources>

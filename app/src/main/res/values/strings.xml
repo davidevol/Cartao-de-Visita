@@ -13,4 +13,6 @@
     <string name="label_confirmar">Confirm</string>
     <string name="label_show_success">Successful registration.</string>
     <string name="label_share_to">Share</string>
+    <string name="print_name">BusinessCard</string>
+    <string name="sucess_image_dialog">Image successfully captured!</string>
 </resources>
