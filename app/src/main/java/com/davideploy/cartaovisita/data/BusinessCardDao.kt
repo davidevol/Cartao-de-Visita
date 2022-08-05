@@ -1,4 +1,4 @@
-package com.davideploy.cartovisita.data
+package com.davideploy.cartaovisita.data
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao

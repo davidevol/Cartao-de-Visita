@@ -1,10 +1,10 @@
-package com.davideploy.cartovisita.ui
+package com.davideploy.cartaovisita.ui
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.davideploy.cartovisita.data.BusinessCard
-import com.davideploy.cartovisita.data.BusinessCardRepository
+import com.davideploy.cartaovisita.data.BusinessCard
+import com.davideploy.cartaovisita.data.BusinessCardRepository
 
 class MainViewModel(private val businessCardRepository: BusinessCardRepository) : ViewModel(){
 

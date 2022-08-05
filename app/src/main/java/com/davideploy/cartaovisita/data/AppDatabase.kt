@@ -1,4 +1,4 @@
-package com.davideploy.cartovisita.data
+package com.davideploy.cartaovisita.data
 
 import android.content.Context
 import androidx.room.Database

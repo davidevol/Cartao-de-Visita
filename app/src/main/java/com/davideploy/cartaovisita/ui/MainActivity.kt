@@ -1,11 +1,11 @@
-package com.davideploy.cartovisita.ui
+package com.davideploy.cartaovisita.ui
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.davideploy.cartovisita.App
-import com.davideploy.cartovisita.databinding.ActivityMainBinding
+import com.davideploy.cartaovisita.App
+import com.davideploy.cartaovisita.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

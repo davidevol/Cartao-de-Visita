@@ -1,8 +1,8 @@
-package com.davideploy.cartovisita
+package com.davideploy.cartaovisita
 
 import android.app.Application
-import com.davideploy.cartovisita.data.AppDatabase
-import com.davideploy.cartovisita.data.BusinessCardRepository
+import com.davideploy.cartaovisita.data.AppDatabase
+import com.davideploy.cartaovisita.data.BusinessCardRepository
 
 class App : Application() {
 

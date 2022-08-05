@@ -1,4 +1,4 @@
-package com.davideploy.cartovisita.data
+package com.davideploy.cartaovisita.data
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

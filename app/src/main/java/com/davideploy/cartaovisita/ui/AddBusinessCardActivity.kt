@@ -1,13 +1,13 @@
-package com.davideploy.cartovisita.ui
+package com.davideploy.cartaovisita.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
-import com.davideploy.cartovisita.App
-import com.davideploy.cartovisita.R
-import com.davideploy.cartovisita.data.BusinessCard
-import com.davideploy.cartovisita.databinding.ActivityAddBusinessCardBinding
+import com.davideploy.cartaovisita.App
+import com.davideploy.cartaovisita.R
+import com.davideploy.cartaovisita.data.BusinessCard
+import com.davideploy.cartaovisita.databinding.ActivityAddBusinessCardBinding
 
 
 class AddBusinessCardActivity : AppCompatActivity() {

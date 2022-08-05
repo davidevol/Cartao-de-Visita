@@ -1,4 +1,4 @@
-package com.davideploy.cartovisita
+package com.davideploy.cartaovisita
 
 import org.junit.Test
 

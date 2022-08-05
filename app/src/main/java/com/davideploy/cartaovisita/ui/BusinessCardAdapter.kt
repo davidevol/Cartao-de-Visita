@@ -1,4 +1,4 @@
-package com.davideploy.cartovisita.ui
+package com.davideploy.cartaovisita.ui
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.davideploy.cartovisita.data.BusinessCard
-import com.davideploy.cartovisita.databinding.ItemBussinesCardBinding
+import com.davideploy.cartaovisita.data.BusinessCard
+import com.davideploy.cartaovisita.databinding.ItemBussinesCardBinding
 
 class BusinessCardAdapter :
     ListAdapter<BusinessCard, BusinessCardAdapter.ViewHolder>(DiffCallback()) {
